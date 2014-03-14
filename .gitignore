@@ -1,6 +1,19 @@
 *.class
 
 # Package Files #
-*.jar
 *.war
 *.ear
+
+# ignore all target directories
+target/
+
+# ignore temp files ~
+*~ 
+*.swp
+
+# eclipse specific git ignore
+.project
+.metadata
+.classpath
+.settings/
+.loadpath
