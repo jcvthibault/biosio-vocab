@@ -12,11 +12,11 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
 
 
-# Overview
+## Overview
 
 Controlled vocabulary / ontology for biomolecular simulation data exchange
 
-# Content
+## Content
 1. Relational database to store concepts, terms, citations, and relationships ('is a', 'has parts')
 2. Java API to convert DB-stored concept to SKOS/OWL and vice versa
 
