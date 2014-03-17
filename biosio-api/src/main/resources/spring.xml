@@ -18,7 +18,7 @@
 		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="locations">
 			<list>
-				<value>file:${IBIOMES_HOME}/config/terminology-db.properties</value>
+				<value>file:${BIOSIO_HOME}/config/terminology-db.properties</value>
 			</list>
 		</property>
 	</bean>
