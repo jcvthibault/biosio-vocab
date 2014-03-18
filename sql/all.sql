@@ -1,7 +1,8 @@
 
 source schema.sql;
 -- source populate.sql;
+source semtypes.sql;
 
 FLUSH PRIVILEGES;
-GRANT INSERT, SELECT ON TERMINOLOGY_DB.* TO 'ibiomes-db'@'%' identified by 'ibiomes';
+GRANT SELECT ON TERMINOLOGY_DB.* TO 'biosio-db'@'%' identified by 'biosio';
 

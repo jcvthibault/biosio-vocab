@@ -40,7 +40,6 @@ public class SemanticType {
 
 	private String tid;
 	private String term;
-	private Description description;
 	private Set<Concept> concepts;
 	
 	public SemanticType(){
@@ -58,15 +57,6 @@ public class SemanticType {
 	@Column(name = "str")
 	public String getTerm() {return term;}
 	public void setTerm(String term) {this.term = term;}
-
-	@ManyToOne
-    @JoinTable(
-            name="SEMANTIC_TYPE_DESCRIPTION",
-            joinColumns = @JoinColumn( name="cui"),
-            inverseJoinColumns = @JoinColumn(name="desc_id")
-    )
-	public Description getDescription() {return description;}
-	public void setDescription(Description description) {this.description = description;}
 	
 	@ManyToMany
     @JoinTable(
